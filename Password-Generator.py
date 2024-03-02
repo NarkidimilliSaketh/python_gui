@@ -271,10 +271,8 @@ btn = Button(master=root, text="calculate", fg="green",
 password_entry = Entry(root, width=30)
 password_entry.place(x=220, y=200)
 
-copy_btn = Button(master=root, text="Copy", fg="green",
+copy_button = Button(master=root, text="Copy", fg="green",
                   font=("Arial", 10, 'bold'), command=copyclip).place(x=320, y=230)
 
-photo = PhotoImage(file="password.png")
-root.iconphoto(False, photo)
 
 root.mainloop()
